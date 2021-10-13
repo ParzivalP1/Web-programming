@@ -1,0 +1,32 @@
+.myBackImageMain{
+    padding-block: 60px;
+    background-image: url("https://travellizy.com/storage/content/french_national_cuisine/cheese-3d7cc3b61b_x1000.jpg");
+}
+.myBackImageFooter{
+    padding-block: 20px;
+    background-image: url("https://brjunetka.ru/wp-content/uploads/2014/09/Tam-lyubyat-vino.jpg");
+}
+.myText{
+    background-color: antiquewhite;
+    font: 16px/26px"Arial",sans-serif;
+    padding-top: 6px;
+    padding-bottom: 12px;
+    padding-left: 40px;
+    text-transform: none;
+    color: black;
+    text-decoration: none;
+    white-space: normal;
+}
+.myHeaders{
+    background-color: aqua;
+    font: 16px/26px"Arial",sans-serif;
+    padding-top: 6px;
+    text-align: left;
+    font-weight: bold;
+    color: black;
+    text-decoration: none;
+    white-space: normal;
+}
+.myShadow{
+    box-shadow: 0 0 10px;
+}
