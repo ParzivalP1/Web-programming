@@ -1,6 +1,8 @@
 <!DOCTYPE html>
 <html lang="ru">
 <head>
+    <script src="/Scripts/LoadTime1.js"></script>
+
     <title>Kuts restaurant</title>
     <meta charset="UTF-8">
     <meta name="keywords" content="изысканная кухня, незабываемые впечатления, великолепный сервис">
@@ -12,12 +14,15 @@
 </head>
 <body>
     <header>
-        <nav class="myHeaders">
-            Навигация по сайту
+        <nav>
+            <ul class="menu-main">
+                <li><a href="WebShopStructure.html" class="current">Main page</a></li>
+                <li><a href="RestaurantMenu.html">Restaurant menu</a></li>
+                <li><a href="FormForTimeTable.html">Book a table</a></li>
+                <li><a href="LocOfOurRest.html">Location of our restaurants</a></li>
+                <li><a href="ContactUs.html">Contact us</a></li>
+            </ul>
         </nav>
-        <h1 class="myHeaders">
-            Ресторан стоящий вашего внимания
-        </h1>
     </header>
 
     <main class="myBackImageMain">
@@ -62,10 +67,24 @@
                     <q> E=m*c<sup>2</sup> </q> <br>
                     <cite> Альберт Эйнштейн </cite> <br>
                 </p>
+                <table>
+                    <tr><th>Стили</th><th>Заголовки</th></tr>
+                    <tr><td>Style1</td><td>Header1</td></tr>
+                    <tr><td>Style2</td><td>Header2</td></tr>
+                    <tr><td>Style3</td><td>Header3</td></tr>
+                </table>
+                <table class="grid_table">
+                    <thead>
+                        <th>Стили</th><th>Заголовки</th>
+                    </thead>
+                    <tbody>
+                        <tr><td>Style1</td><td>Header1</td></tr>
+                    </tbody>
+                </table>
         </aside>
     </main>
 
-    <footer class="myBackImageFooter">
+    <footer>
         <h2 class="myHeaders">
             Наша контактная информация:
         </h2>
@@ -80,6 +99,7 @@
         <ol class="myText">
             <li>https://kutsreataurant/rewards.com</li>
         </ol>
+        <script src="/Scripts/LoadTime2.js"></script>
     </footer>
 </body>
 </html>
